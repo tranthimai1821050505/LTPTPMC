@@ -11,7 +11,7 @@ namespace LTPTPMC.Models
     public class Demo
     {
         [Key]
-        public string Id { get; set; }
+        public string Id { get; set; } 
         public string Name { get; set; }
     }
 }

@@ -15,6 +15,7 @@ namespace LTPTPMC.Controllers
         private LTPTPMCDbContext db = new LTPTPMCDbContext();
 
         // GET: Persons
+        //
         public ActionResult Index()
         {
             return View(db.Persons.ToList());
